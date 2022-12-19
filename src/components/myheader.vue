@@ -1,7 +1,6 @@
 <template>
-	<div>
+	<div class="myheader">
 		<!--	  页面向下滚动后出现透明绿色背景条-->
-		这里是 header 组件
 		<searchbar/>
 	</div>
 </template>
@@ -14,25 +13,21 @@ export default {
 	components: {
 		searchbar
 	},
-	data() {
-		return {};
-	},
-	computed: {},
-	watch: {},
-	methods: {},
-	mounted() {
-	},       // 挂载完成 DOM可访问 模板已渲染
-	beforeUpdate() {
-	},  // 数据已更新但模板未更新
-	updated() {
-	},       // 数据 + 模板已更新
-	beforeDestroy() {
-	}, // 销毁之前
-	activated() {
-	},     // 如有 keep-alive 缓存功能，此函数会触发
 }
 </script>
 
 <style lang="less" scoped>
-
+.myheader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 8.6%;
+	margin: 0 auto;
+	background-color: rgba(164, 193, 89,0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
 </style>

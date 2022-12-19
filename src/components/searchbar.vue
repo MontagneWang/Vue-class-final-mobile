@@ -1,7 +1,6 @@
 <template>
-	<div>
-		<!--搜索模块-->
-		这里是 searchbar 组件
+	<div class="search">
+		<input type="text" class="searchbar">
 	</div>
 </template>
 
@@ -12,25 +11,28 @@ export default {
 	components: {
 		// Ling,
 	},
-	data() {
-		return {};
-	},
-	computed: {},
-	watch: {},
-	methods: {},
-	mounted() {
-	},       // 挂载完成 DOM可访问 模板已渲染
-	beforeUpdate() {
-	},  // 数据已更新但模板未更新
-	updated() {
-	},       // 数据 + 模板已更新
-	beforeDestroy() {
-	}, // 销毁之前
-	activated() {
-	},     // 如有 keep-alive 缓存功能，此函数会触发
 }
 </script>
 
 <style lang="less" scoped>
+.search {
+	width: 100%;
 
+	input {
+		outline: none;
+		border: 0;
+	}
+}
+
+.searchbar {
+	width: 89%;
+	height: 5%;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.20);
+	border: 0 solid rgba(0, 0, 0, 0.10);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 27.5px;
+
+
+}
 </style>

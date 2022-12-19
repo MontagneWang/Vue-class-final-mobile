@@ -1,17 +1,24 @@
 <template>
-	<div class="">
-		首页展示 index 组件
-		<br/>
-		<img alt="Vue logo" src="../assets/logo.png">
+	<div class="index">
+		<myswiper/>
+		<flex/>
+		<count/>
 	</div>
 </template>
 
 <script>
+import myswiper from "@/components/myswiper";
+import flex from "@/components/flex";
+import count from "@/components/count";
+
 export default {
 	name: 'index',
+	components:{myswiper,flex,count}
 }
 </script>
 
 <style scoped lang="less">
-
+.index{
+	padding-bottom: 6.8vh;
+}
 </style>

@@ -9,10 +9,4 @@
   box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.backtop-layout {
-  position: fixed;
-  right: 10px;
-  bottom: 60px;
-  z-index: 1100;
-  background-color: red;
-}
+

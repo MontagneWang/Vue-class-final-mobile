@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="backtop-layout">
 		<!--返回顶部-->
-		这里是 backtop 组件
+<!--		这里是 backtop 组件-->
 	</div>
 </template>
 
@@ -32,5 +32,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+.backtop-layout {
+	position: fixed;
+	right: 10px;
+	bottom: 60px;
+	z-index: 1100;
+	background-color: red;
+}
 </style>
