@@ -1,22 +1,25 @@
 <template>
 	<div>
-		路由已切换至 AboutView
-		<hr />
-		<myheader/>
-		<about/>
-		<backtop/>
+		<p>这里是 about 组件</p>
+		<p>写入版权信息的说明</p>
+		<p>姓名：</p>
+		<p>学号：</p>
+		<p>本项目使用 Vue 构建</p>
+		<p>打包好的文件在 dist 文件夹中</p>
+		<p>由于打包文件中的 index.html 需要放在服务器上</p>
+		<p>所以您可以通过网页链接进行访问查看</p>
+		<p>地址：</p>
+		<p>（前八位是我的学号）</p>
 	</div>
 </template>
 
 <script>
-import myheader from '@/components/myheader'
-import about from '@/components/about'
-import backtop from '@/components/backtop'
-import tabbar from '@/components/tabbar'
-
+// import Ling from './vc'
 export default {
-	name: '',
-	components: {myheader, about, backtop, tabbar},
+	name: "about",
+	components: {
+		// Ling,
+	},
 	data() {
 		return {};
 	},

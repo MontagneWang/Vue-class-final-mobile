@@ -1,22 +1,17 @@
 <template>
 	<div>
-		路由已切换至 AboutView
-		<hr />
-		<myheader/>
-		<about/>
-		<backtop/>
+		<!--搜索模块-->
+		这里是 searchbar 组件
 	</div>
 </template>
 
 <script>
-import myheader from '@/components/myheader'
-import about from '@/components/about'
-import backtop from '@/components/backtop'
-import tabbar from '@/components/tabbar'
-
+// import Ling from './vc'
 export default {
-	name: '',
-	components: {myheader, about, backtop, tabbar},
+	name: "searchbar",
+	components: {
+		// Ling,
+	},
 	data() {
 		return {};
 	},

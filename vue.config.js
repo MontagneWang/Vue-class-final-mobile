@@ -1,4 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true
+  transpileDependencies: true,
+	// 自动打开浏览器
+	devServer:{
+		host: 'localhost',
+		open:true
+	}
 })

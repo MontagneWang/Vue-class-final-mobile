@@ -1,22 +1,19 @@
 <template>
 	<div>
-		路由已切换至 AboutView
-		<hr />
-		<myheader/>
-		<about/>
-		<backtop/>
+		<!--	  页面向下滚动后出现透明绿色背景条-->
+		这里是 header 组件
+		<searchbar/>
 	</div>
 </template>
 
 <script>
-import myheader from '@/components/myheader'
-import about from '@/components/about'
-import backtop from '@/components/backtop'
-import tabbar from '@/components/tabbar'
+import searchbar from './searchbar'
 
 export default {
-	name: '',
-	components: {myheader, about, backtop, tabbar},
+	name: "myheader",
+	components: {
+		searchbar
+	},
 	data() {
 		return {};
 	},
