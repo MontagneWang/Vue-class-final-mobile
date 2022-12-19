@@ -31,7 +31,8 @@ export default {
 		height: 6.8vh;
 		margin: 0 auto;
 		line-height: 6.8vh;
-		background-color: #66ccff;
+		background-color: rgba(255,255,255,1);
+		border: 1px solid rgba(218,218,218,1);
 		box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.15);
 		z-index: 2;
 	}

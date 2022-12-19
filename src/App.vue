@@ -14,9 +14,10 @@
 	padding-bottom: 6.8vh;
 	overflow: hidden;
 	background-color: #f5f5f5;
-	height: 100vh;
-	overflow-y: scroll;
+	//height: 100vh;
+	//overflow-y: scroll;
 }
+
 </style>
 <script>
 import Tabbar from "@/components/tabbar";

@@ -8,7 +8,7 @@
 				<a href="#">
 					<img :src="item.url" width="100%" alt="">
 					<span class="title">{{ item.title }}</span>
-					<span class="price">{{ item.price }}</span>
+					<span class="price">{{ item.price }}元起</span>
 				</a>
 			</li>
 		</ul>
@@ -41,6 +41,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+a:active {
+	text-decoration: none;
+	color: #ee0000 ;
+}
 .count {
 	width: 100%;
 	background-color: #fff;
@@ -48,7 +52,7 @@ export default {
 	padding-top: 8.4vh;
 	position: relative;
 
-	div{
+	div {
 		position: absolute;
 		top: 2.8vh;
 		left: 5.3%;
@@ -58,7 +62,7 @@ export default {
 		letter-spacing: 0;
 	}
 
-	ul{
+	ul {
 		display: flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
@@ -79,6 +83,14 @@ export default {
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
 			-webkit-box-orient: vertical;
+		}
+
+		span.price {
+			float: left;
+			font-family: PingFangSC-Semibold;
+			font-size: 14px;
+			color: #E93B3B;
+			margin-bottom: 1.1vh;
 		}
 	}
 }

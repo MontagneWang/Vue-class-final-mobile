@@ -55,6 +55,7 @@ export default {
 		font-size: 20px;
 	}
 }
+
 .flex {
 	width: 100%;
 	background: #fff;

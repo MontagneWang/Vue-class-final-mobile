@@ -18,7 +18,5 @@ export default {
 </script>
 
 <style scoped lang="less">
-.index{
-	padding-bottom: 6.8vh;
-}
+
 </style>
