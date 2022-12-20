@@ -3,7 +3,6 @@
 		<myheader/>
 		<about/>
 		<backtop/>
-		<myswiper/>
 	</div>
 </template>
 

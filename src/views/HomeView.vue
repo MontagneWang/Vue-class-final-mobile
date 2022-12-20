@@ -15,7 +15,11 @@ import tabbar from "@/components/tabbar";
 
 export default {
 	name: 'HomeView',
-	components: {myheader, index, backtop, tabbar,myswiper},
+	components: {myheader, index, backtop, tabbar, myswiper},
 
 }
 </script>
+
+<style lang="less">
+
+</style>

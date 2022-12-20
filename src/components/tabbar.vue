@@ -27,7 +27,7 @@ export default {
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		width: 100%;
+		width: 100vw;
 		height: 6.8vh;
 		margin: 0 auto;
 		line-height: 6.8vh;
